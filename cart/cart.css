@@ -14,18 +14,23 @@ body{
 
 .dropdown-cart{
     width: 30vw;
-    height: 45vw;
-    background-color: aqua;
+    height: 0;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    /* background-color: aqua; */
     display: flex;
     justify-content: start;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 20px;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .dropdown-cart.open{
-
+    height: 41.5vw;
 }
 
 .shopping-cart{
@@ -46,7 +51,7 @@ body{
     display: flex;
     width: 100%;
     height: 20vh;
-    background-color: wheat;
+    /* background-color: wheat; */
 }
 
 .item-1 > img{
@@ -65,7 +70,11 @@ body{
 .total{
     display: flex;
     flex-direction: row;
-    gap: 150%
+    gap: 70%
+}
+
+.total > p{
+    margin-top: 7%;
 }
 
 .qty{
@@ -88,7 +97,7 @@ body{
 .cart-end{
     width: 100%;
     height: 10%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
 }
