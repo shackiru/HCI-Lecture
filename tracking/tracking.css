@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.my{
+    display: flex;
+    position: relative;
+    font-size: 4vw;
+    top: 2vw;
+    left: 40vw;
+    color: #FFD74B;
+}
+
+.order{
+    display: flex;
+    position: relative;
+    font-size: 4vw;
+    top: 2vw;
+    left: 41.4vw;
+}
+
+.my-order{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    display: flex;
+    position: relative;
+    /* margin-bottom: -140px; */
+    left: -8.6vw;
+    top: 17vh;
+    width: 85vw;
+    height: 80vh;
+    border-radius: 25px;
+    background-color: white;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.8);
+}
+
+.horizontal-line{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    top: 6vw;
+    width: 100%;
+    height: 0%;
+    z-index: 1000;
+}
+
+.vertical-line{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    left: -40.5vw;
+    height: 6vw;
+    width: 0%;
+    outline-color: black;
+    z-index: 1000;
+}
+
+.footer{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    top: 130vh;
+}
+
+.active-order{
+    position: absolute;
+    color: #FFD74B;
+    top: 1.5vw;
+    left: 13.5vw;
+}
+
+.active-order-btn{
+    position: absolute;
+    color: #FFD74B;
+    top: 1.5vw;
+    left: 13.5vw;
+
+    border: none; 
+    background-color: white; 
+    font-size: 1.5vw;
+}
+
+.history-order{
+    position: absolute;
+    color: #303030;
+    top: 1.5vw;
+    left: 53vw;
+}
+
+.foto{
+    width: 16vw;
+    display: flex;
+    position: absolute;
+    left: 11.3vw;
+    top: 26vw;
+}
+
+.food-title{
+    position: absolute;
+    top: 26vw;
+    left: 29vw;
+}
+
+.shipping-num{
+    position: absolute;
+    left: 29vw;
+    top: 29.9vw;
+    color: black;
+    opacity: 50%;
+}
+
+.quantity{
+    position: absolute;
+    top: 29.9vw;
+    left: 84vw;
+}
+
+.status{
+    position: absolute;
+    top: 40vw;
+    left: 29vw;
+    color: #FFD74B;
+    /* opacity: 0; */
+}
+
+.status2{
+    position: absolute;
+    top: 40vw;
+    left: 29vw;
+    color: #FFD74B;
+    opacity: 0;
+}
+
+.price{
+    position: absolute;
+    top: 40vw;
+    opacity: 50%;
+    /* left: 75.5vw; */
+    right: 13.5vw;
+}
+
+.horizontal-line2{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    top: 26.5vw;
+    width: 92%;
+    height: 0%;
+    z-index: 1000;
+}
+
+.p{
+    color: white;
+}
+
+.truck{
+    width: 5vw;
+    display: flex;
+    position: absolute;
+    left: 10.3vw;
+    top: 45vw;
+}
+
+.desc{
+    position: absolute;
+    top: 46.2vw;
+    left: 16.7vw;
+}
+
+.total{
+    position: absolute;
+    color: #FFC300;
+    top: 46.2vw;
+    right: 13.5vw;
+}
+
+.desc2{
+    position: absolute;
+    top: 46.2vw;
+    left: 16.7vw;
+    opacity: 0;
+}
