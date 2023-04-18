@@ -1,0 +1,107 @@
+body{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.pop-up-container{
+    /* display: none; */
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.menu-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width: 47%;
+    background-color: white;
+    height: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.menu-detail{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    position: relative;
+    margin: 5%;
+    flex-direction: column;
+    gap: 5%
+}
+
+.menu-detail > img{
+    width: 30%;
+}
+
+.menu-detail > #harga{
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.menu-detail > #judul{
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.add-cart{
+    display: flex;
+    flex-direction: row;
+    gap: 32%;
+}
+
+.plus-minus{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    scale: 1;
+    gap: 13%;
+    height: 50%;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    font-size: 0.8rem;
+    justify-content: center;
+}
+
+.plus-minus > img{
+    width: 25%;
+    height: auto;
+    scale: 0.5;
+}
+
+.add-to-cart{
+    display: flex;
+    width: 60%;
+    height: 50%;
+    border-radius: 20px;
+    border-color: yellow;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.add-to-cart::before{
+    content: url("../menu/cart.png");
+    scale: 0.4;
+}
