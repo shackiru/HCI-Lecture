@@ -246,7 +246,7 @@ body{
     margin-top: -35vh;
     margin-left: 10vh;
     width: 26vw;
-    height: 30vw;
+    height: 31.5vw;
     font-size: 2.2vw;
     border-radius: 30px;
     background-color: white;
@@ -255,15 +255,16 @@ body{
     flex-direction: column;
     box-shadow: 0 3px 5px rgb(0 0 0 / 0.5);
     font-weight: bold;
+    overflow: hidden;
 }
 
 .odading{
     display: flex;
     position: relative;
-    margin-top: -62.6vh;
+    margin-top: -63.5vh;
     margin-left: 75vh;
     width: 26vw;
-    height: 30vw;
+    height: 30.5vw;
     font-size: 2.2vw;
     border-radius: 30px;
     background-color: white;
@@ -277,10 +278,10 @@ body{
 .corndog{
     display: flex;
     position: relative;
-    margin-top: -62.6vh;
+    margin-top: -63.5vh;
     margin-left: 140vh;
     width: 26vw;
-    height: 30vw;
+    height: 30.5vw;
     font-size: 2.2vw;
     border-radius: 30px;
     background-color: white;
@@ -297,7 +298,7 @@ body{
     margin-top: 10vh;
     margin-left: 10vh;
     width: 26vw;
-    height: 30vw;
+    height: 31.5vw;
     font-size: 2.2vw;
     border-radius: 30px;
     background-color: white;
@@ -306,6 +307,7 @@ body{
     flex-direction: column;
     box-shadow: 0 3px 5px rgb(0 0 0 / 0.5);
     font-weight: bold;
+    overflow: hidden;
 }
 
 .iced-boba-tea{
@@ -498,7 +500,7 @@ body{
 .box1{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("../shop/shop_asset/es\ kepal\ milo.png");
     background-position: center;
     border-top-left-radius: 30px;
@@ -508,8 +510,9 @@ body{
 .box2{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/odading.png");
+    background-position: center;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
@@ -517,7 +520,7 @@ body{
 .box3{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/corndog.png");
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -526,7 +529,7 @@ body{
 .box4{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/dalgona\ coffee.png");
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -535,7 +538,7 @@ body{
 .box5{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/iced\ boba\ tea.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -545,7 +548,7 @@ body{
 .box6{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/es\ cokelat\ cocol.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -555,7 +558,7 @@ body{
 .box7{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/pisang\ nugget.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -565,7 +568,7 @@ body{
 .box8{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/indomie\ donat.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -575,7 +578,7 @@ body{
 .box9{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/dessert\ box.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -585,7 +588,7 @@ body{
 .box10{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/croffle.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -595,7 +598,7 @@ body{
 .box11{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/garlic\ bread.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -605,7 +608,7 @@ body{
 .box12{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/salmon\ mentai.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -615,7 +618,7 @@ body{
 .box13{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/spaghetti\ brulee.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -625,7 +628,7 @@ body{
 .box14{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/bomboloni.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -635,69 +638,508 @@ body{
 .box15{
     width: 100%;
     height: 50%;
-    margin-top: -53%;
+    margin-top: -27%;
     background-image: url("shop_asset/mozza\ sticks.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
-.es-kepal-milo > p{
-    margin-top: 1.5vw;
+.font-es-kepal-milo{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.odading > p{
-    margin-top: 1.5vw;
+.font-odading{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.corndog > p{
-    margin-top: 1.5vw;
+.font-corndog{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.dalgona-coffee > p{
-    margin-top: 1.5vw;
+.font-dalgona-coffee{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.iced-boba-tea > p{
-    margin-top: 1.5vw;
+.font-iced-boba-tea{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.es-cokelat-cocol > p{
-    margin-top: 1.5vw;
+.font-es-cokelat-cocol{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.pisang-nugget > p{
-    margin-top: 1.5vw;
+.font-pisang-nugget{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.indomie-donat > p{
-    margin-top: 1.5vw;
+.font-indomie-donat{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.dessert-box > p{
-    margin-top: 1.5vw;
+.font-dessert-box{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.croffle > p{
-    margin-top: 1.5vw;
+.font-croffle{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.garlic-bread > p{
-    margin-top: 1.5vw;
+.font-garlic-bread{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.salmon-mentai > p{
-    margin-top: 1.5vw;
+.font-salmon-mentai{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.spaghetti-brulee > p{
-    margin-top: 1.5vw;
+.font-spaghetti-brulee{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.bomboloni > p{
-    margin-top: 1.5vw;
+.font-bomboloni{
+    margin-top: 2vh;
+    font-size: 2.5vw;
 }
 
-.mozza-sticks > p{
-    margin-top: 1.5vw;
+.font-mozza-sticks{
+    margin-top: 2vh;
+    font-size: 2.5vw;
+} 
+
+.quote1{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang1{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga1{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart1{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote2{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang2{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga2{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart2{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote3{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang3{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga3{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart3{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote4{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang4{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga4{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart4{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote5{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang5{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga5{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart5{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote6{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang6{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga6{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart6{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote7{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang7{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga7{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart7{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote8{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang8{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga8{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart8{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote9{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang9{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga9{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart9{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote10{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang10{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga10{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart10{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote11{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang11{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga11{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart11{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote12{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang12{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga12{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart12{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote13{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang13{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga13{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart13{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote14{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang14{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga14{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart14{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.quote15{
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    line-height: 0.9;
+}
+
+.bintang15{
+    margin-top: 0.7vh;
+    width: 40%;
+}
+
+.harga15{
+    font-size: 1.6vw;
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+}
+
+.cart15{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.big-title{
+    font-size: 2.5vw;
 }
