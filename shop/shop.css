@@ -295,7 +295,7 @@ body{
 .dalgona-coffee{
     display: flex;
     position: relative;
-    margin-top: 10vh;
+    margin-top: 7vh;
     margin-left: 10vh;
     width: 26vw;
     height: 31.5vw;
@@ -748,6 +748,14 @@ body{
     right: 2.5vw;
 }
 
+.yellow-cart1{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
+}
+
 .quote2{
     font-size: 1.8vw;
     font-weight: 400;
@@ -774,6 +782,14 @@ body{
     width: 35%;
     bottom: 2vh;
     right: 2.5vw;
+}
+
+.yellow-cart2{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
 }
 
 .quote3{
@@ -804,6 +820,14 @@ body{
     right: 2.5vw;
 }
 
+.yellow-cart3{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
+}
+
 .quote4{
     font-size: 1.8vw;
     font-weight: 400;
@@ -830,6 +854,14 @@ body{
     width: 35%;
     bottom: 2vh;
     right: 2.5vw;
+}
+
+.yellow-cart4{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
 }
 
 .quote5{
@@ -860,6 +892,14 @@ body{
     right: 2.5vw;
 }
 
+.yellow-cart5{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
+}
+
 .quote6{
     font-size: 1.8vw;
     font-weight: 400;
@@ -885,6 +925,14 @@ body{
     position: absolute;
     width: 35%;
     bottom: 2vh;
+    right: 2.5vw;
+}
+
+.yellow-cart6{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    opacity: 0;
     right: 2.5vw;
 }
 
@@ -916,6 +964,14 @@ body{
     right: 2.5vw;
 }
 
+.yellow-cart7{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
+}
+
 .quote8{
     font-size: 1.8vw;
     font-weight: 400;
@@ -944,6 +1000,14 @@ body{
     right: 2.5vw;
 }
 
+.yellow-cart8{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
+}
+
 .quote9{
     font-size: 1.8vw;
     font-weight: 400;
@@ -969,6 +1033,14 @@ body{
     position: absolute;
     width: 35%;
     bottom: 2vh;
+    right: 2.5vw;
+}
+
+.yellow-cart9{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    opacity: 0;
     right: 2.5vw;
 }
 
@@ -1000,6 +1072,14 @@ body{
     right: 2.5vw;
 }
 
+.yellow-cart10{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
+}
+
 .quote11{
     font-size: 1.8vw;
     font-weight: 400;
@@ -1026,6 +1106,14 @@ body{
     width: 35%;
     bottom: 2vh;
     right: 2.5vw;
+}
+
+.yellow-cart11{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
 }
 
 .quote12{
@@ -1056,6 +1144,14 @@ body{
     right: 2.5vw;
 }
 
+.yellow-cart12{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
+}
+
 .quote13{
     font-size: 1.8vw;
     font-weight: 400;
@@ -1082,6 +1178,14 @@ body{
     width: 35%;
     bottom: 2vh;
     right: 2.5vw;
+}
+
+.yellow-cart13{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
 }
 
 .quote14{
@@ -1112,6 +1216,14 @@ body{
     right: 2.5vw;
 }
 
+.yellow-cart14{
+    position: absolute;
+    width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+    opacity: 0;
+}
+
 .quote15{
     font-size: 1.8vw;
     font-weight: 400;
@@ -1136,6 +1248,14 @@ body{
 .cart15{
     position: absolute;
     width: 35%;
+    bottom: 2vh;
+    right: 2.5vw;
+}
+
+.yellow-cart15{
+    position: absolute;
+    width: 35%;
+    opacity: 0;
     bottom: 2vh;
     right: 2.5vw;
 }
