@@ -217,3 +217,63 @@ yellowcart15.onmouseout = function(){
     cart15.style.opacity = "100";
     yellowcart15.style.opacity = "0";
 }
+
+yellowcart1.onclick = function(){
+
+}
+
+yellowcart2.onclick = function(){
+
+}
+
+yellowcart3.onclick = function(){
+
+}
+
+yellowcart4.onclick = function(){
+
+}
+
+yellowcart5.onclick = function(){
+
+}
+
+yellowcart6.onclick = function(){
+
+}
+
+yellowcart7.onclick = function(){
+
+}
+
+yellowcart8.onclick = function(){
+
+}
+
+yellowcart9.onclick = function(){
+
+}
+
+yellowcart10.onclick = function(){
+
+}
+
+yellowcart11.onclick = function(){
+
+}
+
+yellowcart12.onclick = function(){
+
+}
+
+yellowcart13.onclick = function(){
+
+}
+
+yellowcart14.onclick = function(){
+
+}
+
+yellowcart15.onclick = function(){
+
+}
