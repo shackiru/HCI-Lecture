@@ -42,6 +42,7 @@ body{
     border-radius: 100px;
     margin-top: 3%;
     font-weight: bold;
+    /* font-family: Tahoma; */
     color: white;
     text-align: center;
     justify-content: center;
@@ -100,8 +101,12 @@ body{
 
 .search-button > p{
     font-size: 1.2vw;
-    margin-top: 0.5vw;
+    margin-top: 0.3vw;
     color: white;
+}
+
+.search-field > p{
+    margin-top: -2.2vw;
 }
 
 .or{
@@ -724,7 +729,7 @@ body{
     font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -757,10 +762,9 @@ body{
 }
 
 .quote2{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -793,10 +797,9 @@ body{
 }
 
 .quote3{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -829,10 +832,9 @@ body{
 }
 
 .quote4{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -865,10 +867,9 @@ body{
 }
 
 .quote5{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -901,10 +902,9 @@ body{
 }
 
 .quote6{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -937,10 +937,9 @@ body{
 }
 
 .quote7{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -973,10 +972,9 @@ body{
 }
 
 .quote8{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -1009,10 +1007,9 @@ body{
 }
 
 .quote9{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -1045,10 +1042,9 @@ body{
 }
 
 .quote10{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -1081,10 +1077,9 @@ body{
 }
 
 .quote11{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -1117,10 +1112,9 @@ body{
 }
 
 .quote12{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -1153,10 +1147,9 @@ body{
 }
 
 .quote13{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -1189,10 +1182,9 @@ body{
 }
 
 .quote14{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
@@ -1225,10 +1217,9 @@ body{
 }
 
 .quote15{
-    font-size: 1.8vw;
     font-weight: 400;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 2vh;
     line-height: 0.9;
 }
