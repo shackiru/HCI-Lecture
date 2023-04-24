@@ -218,62 +218,75 @@ yellowcart15.onmouseout = function(){
     yellowcart15.style.opacity = "0";
 }
 
-yellowcart1.onclick = function(){
 
+// masih belom jelas
+const food_detail_container = document.getElementById("food-detail-container");
+const food_detail = document.getElementById("food-detail");
+
+yellowcart1.onclick = function(){
+    food_detail_container.style.display = "flex";
 }
 
 yellowcart2.onclick = function(){
-
+    food_detail_container.style.display = "flex";
 }
 
 yellowcart3.onclick = function(){
-
+    food_detail_container.style.display = "flex";
 }
 
 yellowcart4.onclick = function(){
-
+    food_detail_container.style.display = "flex";
 }
 
 yellowcart5.onclick = function(){
-
+    food_detail_container.style.display = "flex";
 }
 
 yellowcart6.onclick = function(){
-
+    food_detail_container.style.display = "flex";
 }
 
 yellowcart7.onclick = function(){
-
+    food_detail_container.style.display = "flex";
 }
 
 yellowcart8.onclick = function(){
-
+    food_detail_container.style.display = "flex";
+    food_detail.style.display = "flex"
 }
 
 yellowcart9.onclick = function(){
-
+    food_detail_container.style.display = "flex";
+    food_detail.style.display = "flex"
 }
 
 yellowcart10.onclick = function(){
-
+    food_detail_container.style.display = "flex";
+    food_detail.style.display = "flex"
 }
 
 yellowcart11.onclick = function(){
-
+    food_detail_container.style.display = "flex";
+    food_detail.style.display = "flex"
 }
 
 yellowcart12.onclick = function(){
-
+    food_detail_container.style.display = "flex";
+    food_detail.style.display = "flex"
 }
 
 yellowcart13.onclick = function(){
-
+    food_detail_container.style.display = "flex";
+    food_detail.style.display = "flex"
 }
 
 yellowcart14.onclick = function(){
-
+    food_detail_container.style.display = "flex";
+    food_detail.style.display = "flex"
 }
 
 yellowcart15.onclick = function(){
-
+    food_detail.style.display = "flex"
+    food_detail_container.style.display = "flex";
 }
