@@ -29,6 +29,7 @@
 .my-order{
     display: flex;
     flex-direction: row;
+    margin-top: -2vw;
 }
 
 .content{
@@ -175,7 +176,7 @@
 
 .desc{
     position: absolute;
-    top: 46.2vw;
+    top: 40.2vw;
     left: 16.7vw;
 }
 

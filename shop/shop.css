@@ -1290,10 +1290,160 @@ body{
 }
 
 /* masih belom jelas */
+
+.food-header > p{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 25vw;
+    /* margin-left: 14vw; */
+    width: 60%;
+    height: 30%;
+    font-size: 2vw;
+}
+
+.copy-font-es-kepal-milo span {
+    /* opacity: 0; */
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -75vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-odading span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -81vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-corndog span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -81vh;
+    font-size: 5.8vw;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -81vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-dalgona-coffee span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -81vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-iced-boba-tea span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -87vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-es-cokelat-cocol span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -93vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-pisang-nugget span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -99vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-indomie-donat span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -105vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-dessert-box span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -111vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-croffle span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -117vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-garlic-bread span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -117vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-salmon-mentai span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -123vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-spaghetti-brulee span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -129vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-bomboloni span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -135vh;
+    font-size: 5.8vw;
+}
+
+.copy-font-mozza-sticks span{
+    opacity: 0;
+    display: inline-block;
+    align-items: center;
+    font-weight: 1000;
+    margin-top: -135vh;
+    font-size: 5.8vw;
+}
+
 .food-detail-container{
     display: none;
     position: fixed;
-    z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
@@ -1302,4 +1452,100 @@ body{
     align-items: center;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
+}
+
+.food-pop-up{
+    /* display: none; */
+    z-index: 9999;
+    background-color: white;
+    border-radius: 40px;
+    width: 80%;
+    height: 80%;
+}
+
+.rectangle{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    width: 200px;
+    height: 100%;
+    border-bottom-left-radius: 40px;
+    width: 42%;
+    height: 100%;
+    border-top-left-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.es-kepal-milo-img{
+    height: 80%;
+}
+
+.image-detail{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin-left: 1vw;
+}
+
+.details{
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-left: 25vw;
+    width: 100%;
+    height: 30%;
+    margin-top: -50vw;
+}
+
+.bintang0{
+    width: 20%;
+    margin-left: 12vw;
+    margin-top: -10vw;
+    height: 10%;
+}
+
+.quote0{
+    width: 100%;
+    margin-left: -15.7vw;
+    margin-top: -5vw;
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+    letter-spacing: 0.16vw;
+    width: 200vw;
+}
+
+.harga0{
+    width: 100%;
+    margin-left: -68vw;
+    margin-top: 1vw;
+    font-size: 4.4vw;
+    font-weight: 1000;
+    width: 200vw;
+}
+
+.add-qty{
+    position: absolute;
+    width: 17%;
+    height: 10%;
+    margin-top: 9vw;
+    left: 47.4%;
+}
+
+.cart0{
+    position: absolute;
+    width: 16.8%;
+    height: 6.8%;
+    margin-top: 9.6vw;
+    left: 70%;
+}
+
+.yellow-cart0{
+    opacity: 0;
+    position: absolute;
+    width: 16.8%;
+    height: 6.8%;
+    margin-top: 9.6vw;
+    left: 70%;
 }
