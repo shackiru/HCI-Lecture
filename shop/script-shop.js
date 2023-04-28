@@ -1072,3 +1072,25 @@ food_detail_container.addEventListener('click', (e) => {
     }
     food_detail_container.style.display = "none"
 });
+
+const images = [
+  '../shop/shop_asset/slider-1.png',
+  '../shop/shop_asset/slider-2.png',
+  '../shop/shop_asset/slider-3.png'
+];
+
+const slider = document.getElementById('slider-1');
+let index = 0;
+
+setInterval(() => {
+  index = (index + 1) % images.length;
+  const newImage = new Image();
+  newImage.src = images[index];
+  newImage.onload = () => {
+    slider.classList.add('hide');
+    setTimeout(() => {
+      slider.src = newImage.src;
+      slider.classList.remove('hide');
+    }, 500);
+  };
+}, 3000);
