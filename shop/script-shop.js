@@ -1066,10 +1066,9 @@ yellowcart15.onclick = function(){
 }
 
 
-food_detail_container.onclick = function(){
-    food_detail_container.style.display = "none";
-}
-
-
-
-
+food_detail_container.addEventListener('click', (e) => {
+    if (e.target === food_pop_up || food_pop_up.contains(e.target)) {
+        return;
+    }
+    food_detail_container.style.display = "none"
+});
