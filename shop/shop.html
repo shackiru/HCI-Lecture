@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="../Global/global.css">
+    <link rel="stylesheet" href="../shop/shop.css">
+    <link rel="stylesheet" href="../cart/cart.css">
+    <script src="https://kit.fontawesome.com/56fd0206a6.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Poppins';
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="left-nav">
+            <a href="../Home/home.html">
+                <img src="../Global/MasaKINI.png" alt="MasaKINI" style="width: 100%;">
+            </a>
+            <select name="language" id="language">
+                <option value="indonesia">Indo</option>
+                <option value="english">English</option>
+                <option value="malaysia">Malay</option>
+                <option value="china">China</option>
+            </select>
+        </div>
+        <div class="center-nav">
+            <a href="../About/about.html">About Us</a>
+            <a href="../Tracking/tracking.html">Tracking</a>
+            <a href="../Shop/shop.html">Shop</a>
+            <div class="login-register">
+                <button id="open-login-button" style="border: none; background-color: white; font-size: 1.5vw;">Login</button>
+                <p style="margin-top: 0.3vw;">/</p>
+                <button id="open-register-button" style="border: none; background-color: white; font-size: 1.5vw;">Register</button>
+            </div>
+        </div>
+        
+        <div class="right-nav">
+            <i class="fa-solid fa-cart-shopping" style="margin-top: 0.6vw; margin-left: 1vw; width: 100%;"></i>
+        </div>
+    </div>
+
+    <div class="container-cart">
+        <div class="dropdown-cart">
+            <div class="shopping-cart">
+                <p>My Shopping Cart</p>
+            </div>
+            <div class="item-1">
+                <img src="../cart/cart-1.png" alt="">
+                <div class="desc">
+                    <p>Dalgona Coffee</p>
+                    <div class="total">
+                        <div class="qty">
+                            <img src="../cart/min.png" alt="">
+                            <p>2</p>
+                            <img src="../cart/plus.png" alt="">
+                        </div>
+    
+                        <p>150000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-1">
+                <img src="../cart/cart-2.png" alt="">
+                <div class="desc">
+                    <p>Bomboloni</p>
+                    <div class="total">
+                        <div class="qty">
+                            <img src="../cart/min.png" alt="">
+                            <p>1</p>
+                            <img src="../cart/plus.png" alt="">
+                        </div>
+    
+                        <p>25000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-1">
+                <img src="../cart/cart-3.png" alt="">
+                <div class="desc">
+                    <p>Dessert Box</p>
+                    <div class="total">
+                        <div class="qty">
+                            <img src="../cart/min.png" alt="">
+                            <p>2</p>
+                            <img src="../cart/plus.png" alt="">
+                        </div>
+    
+                        <p>90000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-end">
+                <img src="../cart/line.png" alt="">
+                <div class="total-akhir">
+                    <p>Total</p>
+                    <p>225000</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CONTENT DISINI -->
+    <div class="jumbotron-1">
+        <div class="delivery">
+            <div class="go-delivery">Go Delivery</div>
+            <div class="enter-address">
+                <p>Enter your address</p>
+            </div>
+            <div class="search">
+                <div class="search-field">
+                    <img class="search-icon" src="../shop/shop_asset/icon _search_.png" alt="">
+                    <p class="search-address">Jalan Pakuan</p>
+                </div>
+                <div class="search-button">
+                    <p>SEARCH</p>
+                </div>
+            </div>
+            <div class="or">
+                <img src="../shop/shop_asset/line-1.png" alt="">
+                <p>OR</p>
+                <img src="../shop/shop_asset/line-1.png" alt="">
+            </div>
+            <div class="location-use">
+                <p class="location-tag">Use my current location</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron-2">
+        <p class="popular-deals">
+            <span style="font-weight: 700">POPULAR</span>
+            <span style="font-weight: 300">DEALS</span>
+        </p>
+        <img class="slider-1" id="slider-1" src="../shop/shop_asset/slider-1.png" alt="Cheese Lover Day">
+        <img class="slider-2" id="slider-2" src="/shop/shop_asset/" alt="Food Promo">
+        <img class="slider-3" id="slider-3" src="/shop/shop_asset/" alt="Food Promo">
+    </div>
+
+    <div class="jumbotron-3">
+        <p class="big-title">
+            <span style="font-weight: 700">OUR REGULAR</span>
+            <span style="font-weight: 300">MENU PACK</span>
+        </p>
+        <div class="category">
+            <div class="category-1" id="category-1">
+                <p>ALL PRODUCT</p>
+            </div>
+            <div class="category-2" id="category-2">
+                <p>FOODS</p>
+            </div>
+            <div class="category-3" id="category-3">
+                <p>BEVERAGES</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="es-kepal-milo">
+            <div class="box1">
+            </div>
+            <p class="font-es-kepal-milo">
+                <span style="color: #FFD74B;">Es</span>
+                <span style="color: black;">Kepal Milo</span>
+            </p>
+            <img class="bintang1" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote1">this food were made <br> by love, we made it by accident</p>
+            <p class="harga1">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">8,000</span>
+            </p>
+            <img class="cart1" id="cart1" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart1" id="yellow-cart1" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="odading">
+            <div class="box2">
+
+            </div>
+            <p class="font-odading">
+                <span style="color: #FFD74B; float: left;">Oda</span>
+                <span style="color: black; float: left;">ding</span>
+            </p>
+            <img class="bintang2" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote2">this food were made <br> by love, we made it by accident</p>
+            <p class="harga2">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">12,000</span>
+            </p>
+            <img class="cart2" id="cart2" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart2" id="yellow-cart2" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="corndog">
+            <div class="box3">
+
+            </div>
+            <p class="font-corndog">
+                <span style="color: #FFD74B; float: left;">Corn</span>
+                <span style="color: black; float: left;">dog</span>
+            </p>
+            <img class="bintang3" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote3">this food were made <br> by love, we made it by accident</p>
+            <p class="harga3">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">15,000</span>
+            </p>
+            <img class="cart3" id="cart3" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart3" id="yellow-cart3" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="dalgona-coffee">
+            <div class="box4">
+
+            </div>
+            <p class="font-dalgona-coffee">
+                <span style="color: #FFD74B;">Dalgona</span>
+                <span style="color: black;">Coffee</span>
+            </p>
+            <img class="bintang4" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote4">this food were made <br> by love, we made it by accident</p>
+            <p class="harga4">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">25,000</span>
+            </p>
+            <img class="cart4" id="cart4" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart4" id="yellow-cart4" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="iced-boba-tea">
+            <div class="box5">
+
+            </div>
+            <p class="font-iced-boba-tea">
+                <span style="color: #FFD74B;">Iced</span>
+                <span style="color: black;">Boba Tea</span>
+            </p>
+            <img class="bintang5" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote5">this food were made <br> by love, we made it by accident</p>
+            <p class="harga5">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">21,000</span>
+            </p>
+            <img class="cart5" id="cart5" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart5" id="yellow-cart5" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="es-cokelat-cocol">
+            <div class="box6">
+
+            </div>
+            <p class="font-es-cokelat-cocol">
+                <span style="color: #FFD74B;">Es</span>
+                <span style="color: black;">Cokelat Cocol</span>
+            </p>
+            <img class="bintang6" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote6">this food were made <br> by love, we made it by accident</p>
+            <p class="harga6">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">18,000</span>
+            </p>
+            <img class="cart6" id="cart6" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart6" id="yellow-cart6" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="pisang-nugget">
+            <div class="box7">
+
+            </div>
+            <p class="font-pisang-nugget">
+                <span style="color: #FFD74B;">Pisang</span>
+                <span style="color: black;">Nugget</span>
+            </p>
+            <img class="bintang7" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote7">this food were made <br> by love, we made it by accident</p>
+            <p class="harga7">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">20,000</span>
+            </p>
+            <img class="cart7" id="cart7" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart7" id="yellow-cart7" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="indomie-donat">
+            <div class="box8">
+
+            </div>
+            <p class="font-indomie-donat">
+                <span style="color: #FFD74B;">Indomie</span>
+                <span style="color: black;">Donat</span>
+            </p>
+            <img class="bintang8" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote8">this food were made <br> by love, we made it by accident</p>
+            <p class="harga8">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">12,000</span>
+            </p>
+            <img class="cart8" id="cart8" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart8" id="yellow-cart8"  src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+
+        <div class="dessert-box">
+            <div class="box9">
+
+            </div>
+            <p class="font-dessert-box">
+                <span style="color: #FFD74B;">Dessert</span>
+                <span style="color: black;">Box</span>
+            </p>
+            <img class="bintang9" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote9">this food were made <br> by love, we made it by accident</p>
+            <p class="harga9">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">45,000</span>
+            </p>
+            <img class="cart9" id="cart9" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart9" id="yellow-cart9" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="croffle">
+            <div class="box10">
+
+            </div>
+            <p class="font-croffle">
+                <span style="color: #FFD74B;">Croffle</span>
+            </p>
+            <img class="bintang10" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote10">this food were made <br> by love, we made it by accident</p>
+            <p class="harga10">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">30,000</span>
+            </p>
+            <img class="cart10" id="cart10" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart10" id="yellow-cart10" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="garlic-bread">
+            <div class="box11">
+
+            </div>
+            <p class="font-garlic-bread">
+                <span style="color: #FFD74B;">Garlic</span>
+                <span style="color: black;">Bread</span>
+            </p>
+            <img class="bintang11" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote11">this food were made <br> by love, we made it by accident</p>
+            <p class="harga11">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">20,000</span>
+            </p>
+            <img class="cart11" id="cart11" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart11" id="yellow-cart11" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="salmon-mentai">
+            <div class="box12">
+
+            </div>
+            <p class="font-salmon-mentai">
+                <span style="color: #FFD74B;">Salmon</span>
+                <span style="color: black;">Mentai</span>
+            </p>
+            <img class="bintang12" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote12">this food were made <br> by love, we made it by accident</p>
+            <p class="harga12">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">30,000</span>
+            </p>
+            <img class="cart12" id="cart12" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart12" id="yellow-cart12" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="spaghetti-brulee">
+            <div class="box13">
+
+            </div>
+            <p class="font-spaghetti-brulee">
+                <span style="color: #FFD74B;">Spaghetti</span>
+                <span style="color: black;">Brulee</span>
+            </p>
+            <img class="bintang13" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote13">this food were made <br> by love, we made it by accident</p>
+            <p class="harga13">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">25,000</span>
+            </p>
+            <img class="cart13" id="cart13" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart13" id="yellow-cart13" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="bomboloni">
+            <div class="box14">
+
+            </div>
+            <p class="font-bomboloni">
+                <span style="color: #FFD74B;">Bomboloni</span>
+            </p>
+            <img class="bintang14" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote14">this food were made <br> by love, we made it by accident</p>
+            <p class="harga14">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">25,000</span>
+            </p>
+            <img class="cart14" id="cart14" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart14" id="yellow-cart14" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+        
+        <div class="mozza-sticks">
+            <div class="box15">
+
+            </div>
+            <p class="font-mozza-sticks">
+                <span style="color: #FFD74B;">Mozza</span>
+                <span style="color: black;">Sticks</span>
+            </p>
+            <img class="bintang15" src="/shop/shop_asset/all stars.png" alt="">
+            <p class="quote15">this food were made <br> by love, we made it by accident</p>
+            <p class="harga15">
+                <span style="color: #FFD74B;">IDR</span>
+                <span style="color: black;">25,000</span>
+            </p>
+            <img class="cart15" id="cart15" src="/shop/shop_asset/add-to-cart.png" alt="">
+            <img class="yellow-cart15" id="yellow-cart15" src="/shop/shop_asset/yellow-add-to-cart.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="food-detail-container" id="food-detail-container"> <!-- css udah -->
+        <div class="food-pop-up" id="food-pop-up">
+            <div class="rectangle" id="rectangle">
+
+            </div>
+            
+            <div class="image-detail">
+
+            </div>
+
+            <div class="food-header">
+                <p class="copy-font-es-kepal-milo" id="copy-font-es-kepal-milo">
+                    <span style="color: #FFD74B;">Es</span>
+                    &nbsp;
+                    <span style="color: black;">Kepal Milo</span>
+                </p>
+                <p class="copy-font-odading" id="copy-font-odading">
+                    <span style="color: #FFD74B; float: left;">Oda</span>
+                    <span style="color: black; float: left;">ding</span>
+                </p>
+                <p class="copy-font-corndog" id="copy-font-corndog"> 
+                    <span style="color: #FFD74B; float: left;">Corn</span>
+                    <span style="color: black; float: left;">dog</span>
+                </p>
+                <p class="copy-font-dalgona-coffee" id="copy-font-dalgona-coffee"> 
+                    <span style="color: #FFD74B;">Dalgona</span>
+                    &nbsp;
+                    <span style="color: black;">Coffee</span>
+                </p>
+                <p class="copy-font-iced-boba-tea" id="copy-font-iced-boba-tea"> 
+                    <span style="color: #FFD74B;">Iced</span>
+                    &nbsp;
+                    <span style="color: black;">Boba Tea</span>
+                </p>
+                <p class="copy-font-es-cokelat-cocol" id="copy-font-es-cokelat-cocol"> 
+                    <span style="color: #FFD74B;">Es</span>
+                    &nbsp;
+                    <span style="color: black;">Cokelat Cocol</span>
+                </p>
+                <p class="copy-font-pisang-nugget" id="copy-font-pisang-nugget"> 
+                    <span style="color: #FFD74B;">Pisang</span>
+                    &nbsp;
+                    <span style="color: black;">Nugget</span>
+                </p>
+                <p class="copy-font-indomie-donat" id="copy-font-indomie-donat"> 
+                    <span style="color: #FFD74B;">Indomie</span>
+                    &nbsp;
+                    <span style="color: black;">Donat</span>
+                </p>
+                <p class="copy-font-dessert-box" id="copy-font-dessert-box"> 
+                    <span style="color: #FFD74B;">Dessert</span>
+                    &nbsp;
+                    <span style="color: black;">Box</span>
+                </p>
+                <p class="copy-font-croffle" id="copy-font-croffle"> 
+                    <span style="color: #FFD74B;">Croffle</span>
+                </p>
+                <p class="copy-font-garlic-bread" id="copy-font-garlic-bread"> 
+                    <span style="color: #FFD74B;">Garlic</span>
+                    &nbsp;
+                    <span style="color: black;">Bread</span>
+                </p>
+                <p class="copy-font-salmon-mentai" id="copy-font-salmon-mentai"> 
+                    <span style="color: #FFD74B;">Salmon</span>
+                    &nbsp;
+                    <span style="color: black;">Mentai</span>
+                </p>
+                <p class="copy-font-spaghetti-brulee" id="copy-font-spaghetti-brulee"> 
+                    <span style="color: #FFD74B;">Spaghetti</span>
+                    &nbsp;
+                    <span style="color: black;">Brulee</span>
+                </p>
+                <p class="copy-font-bomboloni" id="copy-font-bomboloni"> 
+                    <span style="color: #FFD74B;">Bomboloni</span>
+                </p>
+                <p class="copy-font-mozza-sticks" id="copy-font-mozza-sticks">
+                    <span style="color: #FFD74B;">Mozza</span>
+                    &nbsp;
+                    <span style="color: black;">Sticks</span>
+                </p>
+
+                <div class="details">
+                    <img class="bintang0" src="/shop/shop_asset/all stars.png" alt="">
+                    <p class="quote0">Get a taste of the hottest and most <br> delicious food and drinks from Indonesia, <br> all at your fingertips with MasaKINI’s <br> online restaurant website!</p>
+                    <p class="harga0" id="harga0">
+                        IDR 8,000 
+                    </p>
+                    <img class="add-qty" id="add-qty" src="/shop/shop_asset/add-qty.png" alt="Add Quantity">
+                    <img class="cart0" id="cart0" src="/shop/shop_asset/white-pop-up.png" alt="Add to Cart">
+                    <img class="yellow-cart0" id="yellow-cart0" src="/shop/shop_asset/yellow-pop-up.png" alt="Add to Cart">
+                </div>
+            </div>
+
+            <div class="food-details">
+                <div class="food-grid-container">
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <div class="top-footer">
+            <div class="subscribe-to-news">
+                <div class="subscribe-to-news-left">
+                    <p style="font-size: 2.25vw; font-weight: 400; color: white;">SUBSCRIBE</p>
+                    <p style="font-size: 2.25vw; font-weight: 800; color: white;">TO NEWS</p>
+                </div>
+                <div class="subscribe-to-news-right">
+                    <div class="enter-your-email-text-field">
+                        <p style="font-size: 1.25vw; font-weight: 400; color: white;">Enter your email</p>
+                    </div>
+                    <div class="enter-your-email-button">
+                        <p style="font-size: 1.25vw; font-weight: 600; color: white;">SUBSCRIBE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="bottom-footer-detail">
+                <div class="bottom-footer-detail-pages">
+                        <div class="bottom-footer-detail-pages-item">HOME</div>
+                        <div class="bottom-footer-detail-pages-item">ABOUT US</div>
+                        <div class="bottom-footer-detail-pages-item">WHOLESALE</div>  
+                        <div class="bottom-footer-detail-pages-item">MENU</div>
+                        <div class="bottom-footer-detail-pages-item">CONTACT</div>
+                        <div class="bottom-footer-detail-pages-item">FIND STORE</div>  
+                        <div class="bottom-footer-detail-pages-item">DELIVERY</div>
+                        <div class="bottom-footer-detail-pages-item">ACCOUNT</div>
+                        <div class="bottom-footer-detail-pages-item">FAQ</div> 
+                        <div class="bottom-footer-detail-pages-item">PAYMENT</div> 
+                        <div class="bottom-footer-detail-pages-item">BLOG</div>  
+                </div>
+                <div class="working-hours">
+                    <div class="working-hours-detail">
+                        <img src="../Global/🦆 icon _alarm_.png" alt="" style="width: 30%;">
+                        <div class="working-hours-hour">
+                            <p style="font-size: 1vw; font-weight: 800; color: white;">WORKING HOURS</p>
+                            <p style="font-size: 1vw; font-weight: 800; color: white;">08.00 - 23.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-contact-details">
+                    <div class="footer-contact-details-grid">
+                        <div class="footer-contact-details-grid-item"><img src="../Global/🦆 icon _instagram_.png" alt=""></div>
+                        <div class="footer-contact-details-grid-item"><p>valinaevelyn</p></div>
+                        <div class="footer-contact-details-grid-item"><img src="../Global/🦆 icon _whatsapp_.png" alt=""></div>
+                        <div class="footer-contact-details-grid-item"><p>+68 882-6986-1977</p></div>
+                        <div class="footer-contact-details-grid-item"><img src="../Global/basil_facebook-outline.png" alt=""></div>
+                        <div class="footer-contact-details-grid-item"><p>Masakkini</p></div>
+                        <div class="footer-contact-details-grid-item"><img src="../Global/basil_twitter-outline.png" alt=""></div>
+                        <div class="footer-contact-details-grid-item"><p>Masakkiniii</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer-copyright">
+                <p style="font-size: 1vw; font-weight: 800; color: white;">© 2022 all rights reserved</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pop-up-container" id="pop-up-container">
+        <div class="login-pop-up" id="login-pop-up">
+            <img src="../Global/login_register_photo.png" alt="MasaKINI" style="width: 50%;">
+            <div class="login-detail">
+                <div class="pop-up-detail-header">
+                    <img src="../Global/MasaKINI.png" alt="MasaKINI" style="width: 90%;">
+                    <p>Nice to see you again</p>
+                </div>
+
+                <div class="login-detail-form">
+                    <div class="login-grid-container">
+                        <div class="grid-item">
+                            <i class="fa-solid fa-user-large"></i>
+                            <p class="text-field">Username</p>
+                        </div>
+                        <div class="grid-item">
+                            <i class="fa-solid fa-lock"></i>
+                            <p class="text-field" >Password</p>
+                        </div>
+                    </div>
+                    <p id="forgot-password">forgot your password?</p>
+                </div>
+
+                <div class="pop-up-detail-footer">
+                    <button class="login-register-button" id="close-login-button">Login</button>
+                    <div class="login-register-confirmation">
+                        <p style="color: gray; font-size: 0.8vw;">Don't have an account?</p>
+                        <p style="color: #569DDE; font-size: 0.8vw;" id="go-to-register">Sign Up</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="register-pop-up" id="register-pop-up">
+            <img src="../Global/login_register_photo.png" alt="MasaKINI" style="width: 50%;">
+            <div class="login-detail">
+                <div class="pop-up-detail-header">
+                    <img src="../Global/MasaKINI.png" alt="MasaKINI" style="width: 90%;">
+                    <p>Nice to see you again</p>
+                </div>
+
+                <div class="login-detail-form">
+                    <div class="login-grid-container">
+                        <div class="grid-item">
+                            <i class="fa-solid fa-user-large"></i>
+                            <p class="text-field">Username</p>
+                        </div>
+                        <div class="grid-item">
+                            <i class="fa-solid fa-lock"></i>
+                            <p class="text-field" >Password</p>
+                        </div>
+                        <div class="grid-item">
+                            <i class="fa-solid fa-lock"></i>
+                            <p class="text-field" id="re-enter-password">Re-enter password</p>
+                        </div>
+                    </div>
+                    <p id="forgot-password">forgot your password?</p>
+                </div>
+
+                <div class="pop-up-detail-footer">
+                    <button class="login-register-button" id="close-register-button">Register</button>
+                    <div class="login-register-confirmation">
+                        <p style="color: gray; font-size: 0.8vw;">Already have an account?</p>
+                        <p style="color: #569DDE; font-size: 0.8vw;" id="go-to-login">Login</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script-shop.js"></script>
+    <script src="../Global/global.js"></script>
+    <script src="../Global/global.js"></script>
+    <script src="../cart/cart.js"></script>
+</body>
+</html>
