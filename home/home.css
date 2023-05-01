@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: 'Poppins';
+}
+
+/* SECTION ONE */
+
+.section-one{
+    width: 100vw;
+    height: fit-content;
+    padding: 10vw 0 10vw 0;
+    display: flex;
+}
+
+.section-one-description{
+    width: 80%;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5vh;
+}
+
+.section-one-tagline{
+    width: 50%;
+}
+
+.section-one-search-order{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    gap: 1vw;
+}
+
+.section-one-search-order i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.15vw;
+    font-size: 1vw;
+}
+
+.search-bar{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #FFC300;
+    border-radius: 25px;
+    padding: 0 0 0 0.35vw;
+}
+
+.how-to-order{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+}
+
+.section-one-photo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.section-one-photo img{
+    width: 90%;
+}
+
+/* SECTION TWO */
+.section-two{
+    width: 100vw;
+    height: fit-content;
+    padding: 10vw 0 10vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two-discount{
+    width: 80%;
+    background-color: #FFD74B;
+    padding: 3vw 5vw 3vw 5vw;
+    border-radius: 25px;
+    gap: 3vw;
+}
+
+/* SECTION THREE */
+
+/* SECTION FOUR */
+.section-four{
+    width: 100vw;
+    height: fit-content;
+    padding: 10vw 0 10vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw 0 10vw;
+}
+
+.section-four-detail{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3vw;
+    margin: 3vw 0 3vw 0;
+}
+
+.section-four-detail-describtion{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFD74B;
+    border-radius: 25px;
+    padding: 5vw 2vw 5vw 2vw;
+}
+
+.section-four-detail-photo{
+    width: 30%;
+    height: fit-content;
+    padding: 10vw 0 10vw 0;
+    border: 1px solid #FFD74B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 0 1vw 0;
+}
+
+.section-four-detail-photo img{
+    width: 80%;
+}
+
+/* SECTION FIVE */
+.section-five{
+    width: 100vw;
+    height: fit-content;
+    padding: 5vw 0 5vw 0;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+.section-five-photo{
+    width: fit-content;
+}
+
+.section-five-detail{
+    width: 70%;
+    padding: 5vw 0 5vw 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    text-align: justify;
+}
+
+/* SECTION SIX */
+
+.section-six{
+    width: 100vw;
+    height: fit-content;
+    padding: 10vw 0 10vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vw;
+    gap: 5vw;
+}
+
+.section-six-icon{
+    width: 80%;
+    height: 22.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+}
+
+.section-six-icon-item{
+    background-image: url(home_asset/section-six-icon-eclipse.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25vw 0 1.25vw 0;
+}
+
+.section-six-delivery{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 1vw 5vw 1vw;
+    gap: 2vw;
+    background-color: #FFD74B;
+    border-radius: 25px;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+/* SECTION SEVEN */
+.section-seven{
+    width: 100vw;
+    height: fit-content;
+    padding: 10vw 0 10vw 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5vw;
+    gap: 15vw;
+}
+
+.section-seven-detail{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    gap: 5vw;
+}
+
+.section-seven-photo{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-seven-download{
+    width: 100%;
+    display: flex;
+    gap: 3vw;
+}
+
+.section-seven-download-item{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #FFC300;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    gap: 1vw;
+}
