@@ -222,6 +222,7 @@ yellowcart15.onmouseout = function(){
 const food_detail_container = document.getElementById("food-detail-container");
 const food_detail = document.getElementById("food-detail");
 const food_pop_up = document.getElementById("food-pop-up")
+const body = document.getElementsByTagName('body')[0];
 let spans1 = document.querySelectorAll('.copy-font-es-kepal-milo span');
 let spans2 = document.querySelectorAll('.copy-font-odading span');
 let spans3 = document.querySelectorAll('.copy-font-corndog span');
@@ -275,6 +276,8 @@ yellowcart0.onmouseout = function(){
 }
 
 yellowcart1.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';s
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/es kepal new photo.png")';
     spans1.forEach(span => {
@@ -325,6 +328,8 @@ yellowcart1.onclick = function(){
 }
 
 yellowcart2.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/odading.png")';
     harga.innerHTML = "IDR 12,000";
@@ -377,6 +382,8 @@ yellowcart2.onclick = function(){
 }
 
 yellowcart3.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/corndog.png")';
     harga.innerHTML = "IDR 15,000";
@@ -429,6 +436,8 @@ yellowcart3.onclick = function(){
 }
 
 yellowcart4.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/dalgona coffee.png")';
     harga.innerHTML = "IDR 25,000";
@@ -482,6 +491,8 @@ yellowcart4.onclick = function(){
 }
 
 yellowcart5.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/iced boba tea.png")';
     harga.innerHTML = "IDR 21,000";
@@ -535,6 +546,8 @@ yellowcart5.onclick = function(){
 }
 
 yellowcart6.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/es cokelat cocol.png")';
     harga.innerHTML = "IDR 18,000";
@@ -589,6 +602,8 @@ yellowcart6.onclick = function(){
 }
 
 yellowcart7.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/pisang nugget.png")';
     harga.innerHTML = "IDR 20,000";
@@ -642,6 +657,8 @@ yellowcart7.onclick = function(){
 }
 
 yellowcart8.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/indomie donat.png")';
     harga.innerHTML = "IDR 12,000";
@@ -695,6 +712,8 @@ yellowcart8.onclick = function(){
 }
 
 yellowcart9.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/dessert box.png")';
     harga.innerHTML = "IDR 45,000";
@@ -748,6 +767,8 @@ yellowcart9.onclick = function(){
 }
 
 yellowcart10.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/croffle.png")';
     harga.innerHTML = "IDR 30,000";
@@ -801,6 +822,8 @@ yellowcart10.onclick = function(){
 }
 
 yellowcart11.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/garlic bread.png")';
     harga.innerHTML = "IDR 20,000";
@@ -854,6 +877,8 @@ yellowcart11.onclick = function(){
 }
 
 yellowcart12.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/salmon mentai.png")';
     harga.innerHTML = "IDR 30,000";
@@ -907,6 +932,8 @@ yellowcart12.onclick = function(){
 }
 
 yellowcart13.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/spaghetti brulee.png")';
     harga.innerHTML = "IDR 25,000";
@@ -960,6 +987,8 @@ yellowcart13.onclick = function(){
 }
 
 yellowcart14.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/bomboloni.png")';
     harga.innerHTML = "IDR 25,000";
@@ -1013,6 +1042,8 @@ yellowcart14.onclick = function(){
 }
 
 yellowcart15.onclick = function(){
+    food_detail_container.style.display = 'block';
+    body.style.overflow = 'hidden';
     food_detail_container.style.display = "flex";
     rectangle.style.backgroundImage = 'url("/shop/shop_asset/mozza sticks.png")';
     harga.innerHTML = "IDR 25,000";
@@ -1071,6 +1102,7 @@ food_detail_container.addEventListener('click', (e) => {
         return;
     }
     food_detail_container.style.display = "none"
+    body.style.overflow = 'auto'; // re-enable scrolling
 });
 
 const images = [
