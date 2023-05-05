@@ -164,7 +164,7 @@ body{
 .jumbotron-2 > img{
     margin-top: 1.2%;
     width: 60%;
-    transition: opacity 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
   
 .jumbotron-2 > img.hide {
@@ -181,7 +181,7 @@ body{
     position: relative;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: -3%;
 }
 
 .category{
@@ -243,6 +243,7 @@ body{
     justify-content: center;
 }
 
+
 .footer{
     display: flex;
     position: absolute;
@@ -252,10 +253,6 @@ body{
 
 .footer > p{
     color: white;
-}
-
-.menu{
-    margin-left: 5%;
 }
 
 .es-kepal-milo{
@@ -279,7 +276,7 @@ body{
 .odading{
     display: flex;
     position: relative;
-    margin-top: -71.5vh;
+    margin-top: -63.5vh;
     margin-left: 75vh;
     width: 26vw;
     height: 30.5vw;
@@ -296,7 +293,7 @@ body{
 .corndog{
     display: flex;
     position: relative;
-    margin-top: -71.5vh;
+    margin-top: -63.5vh;
     margin-left: 140vh;
     width: 26vw;
     height: 30.5vw;
@@ -331,7 +328,7 @@ body{
 .iced-boba-tea{
     display: flex;
     position: relative;
-    margin-top: -70.5vh;
+    margin-top: -62.6vh;
     margin-left: 75vh;
     width: 26vw;
     height: 30vw;
@@ -348,7 +345,7 @@ body{
 .es-cokelat-cocol{
     display: flex;
     position: relative;
-    margin-top: -70.5vh;
+    margin-top: -62.6vh;
     margin-left: 140vh;
     width: 26vw;
     height: 30vw;
@@ -382,7 +379,7 @@ body{
 .indomie-donat{
     display: flex;
     position: relative;
-    margin-top: -70.5vh;
+    margin-top: -62.6vh;
     margin-left: 75vh;
     width: 26vw;
     height: 30vw;
@@ -399,7 +396,7 @@ body{
 .dessert-box{
     display: flex;
     position: relative;
-    margin-top: -70.5vh;
+    margin-top: -62.6vh;
     margin-left: 140vh;
     width: 26vw;
     height: 30vw;
@@ -433,7 +430,7 @@ body{
 .garlic-bread{
     display: flex;
     position: relative;
-    margin-top: -70.5vh;
+    margin-top: -62.6vh;
     margin-left: 75vh;
     width: 26vw;
     height: 30vw;
@@ -450,7 +447,7 @@ body{
 .salmon-mentai{
     display: flex;
     position: relative;
-    margin-top: -70.5vh;
+    margin-top: -62.6vh;
     margin-left: 140vh;
     width: 26vw;
     height: 30vw;
@@ -1488,6 +1485,10 @@ body{
     border-top-left-radius: 40px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.menu{
+    margin-left: 1%;
 }
 
 .es-kepal-milo-img{
