@@ -271,6 +271,7 @@ body{
     box-shadow: 0 3px 5px rgb(0 0 0 / 0.5);
     font-weight: bold;
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 .odading{
@@ -520,6 +521,8 @@ body{
     background-position: center;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .box2{
@@ -527,6 +530,8 @@ body{
     height: 50%;
     margin-top: -27%;
     background-image: url("shop_asset/odading.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -536,6 +541,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/corndog.png");
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -545,6 +552,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/dalgona\ coffee.png");
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -554,6 +563,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/iced\ boba\ tea.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -564,6 +575,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/es\ cokelat\ cocol.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -574,6 +587,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/pisang\ nugget.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -584,6 +599,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/indomie\ donat.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -594,6 +611,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/dessert\ box.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -604,6 +623,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/croffle.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -614,6 +635,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/garlic\ bread.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -624,6 +647,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/salmon\ mentai.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -634,6 +659,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/spaghetti\ brulee.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -644,6 +671,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/bomboloni.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
@@ -654,6 +683,8 @@ body{
     width: 100%;
     height: 50%;
     margin-top: -27%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("shop_asset/mozza\ sticks.png");
     background-color: #FFD74B;
     border-top-left-radius: 30px;
