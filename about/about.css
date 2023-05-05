@@ -1,0 +1,415 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: 'Poppins';
+}
+.container-about
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-content
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.banner-content .banner-left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.banner-content .banner-left .banner-title-about
+{
+    display: flex;
+    align-items: end;
+    text-align: left;
+    height: 50%;
+    width: 75%;
+}
+
+
+.banner-content .banner-left .banner-title-about h1
+{
+    font-size: 4vw;
+}
+
+.banner-content .banner-left .banner-button-about
+{
+    text-align: left;
+    width: 75%;
+    height: 50%;
+}
+
+.btn-banner
+{
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #FFD74B;
+    height: 70px;
+    width: 250px;
+    margin-top: 2%;
+    margin-right: 2%;
+    border: none;
+    font-size: 30px;
+}
+.btn-banner a
+{
+    color: white;
+    text-decoration: none;
+}
+.storyline
+{
+    height: 70vh;
+}
+
+.storyline .title-storyline h1
+{
+    margin-left: 1%;
+    font-size: 80px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.storyline .content-storyline
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.storyline .content-storyline .img-storyline
+{
+    width: 471px;
+    height: 586px;
+}
+
+
+.storyline .content-storyline .img-storyline
+{
+    width: 30%;
+}
+
+.storyline .content-storyline .text-storyline
+{
+    font-size: 28px;
+    width: 50%;
+    max-width: 900px;
+    max-height: 800px;
+}
+
+.yellow-text
+{
+    color: #FFC300;
+}
+
+.find-us
+{
+    height: 70vh;
+}
+
+.find-us .findus-title h1
+{
+    margin-bottom: 36px;
+    font-size: 80px;
+}
+
+.findus-title
+{
+    margin-left: 1%;
+}
+
+.fu-content
+{
+    text-align: center;
+}
+
+.meet-our-chef
+{
+    margin-left: 1%;
+    margin-bottom: -70px;
+}
+
+.meet-our-chef h1
+{
+    font-size: 80px;
+}
+
+.chef-slider
+{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.chef-slider .arr-left
+{
+    margin-right: 90px;
+}
+
+.chef-slider .arr-right
+{
+    margin-left: 90px;
+}
+
+.chef-slider .chef-content
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 21px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 2px 21px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 2px 21px 0px rgba(0,0,0,0.5);
+    border-radius: 41px 41px 10px 10px;
+    -webkit-border-radius: 41px 41px 10px 10px;
+    -moz-border-radius: 41px 41px 10px 10px;
+    width: 55%;
+    padding-bottom: 50px;
+}
+.chef-slider .chef-content .cc-left-content
+{
+    width: 50%;
+}
+.chef-slider .chef-content .cc-right-content
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.chef-slider .chef-content .cc-left-content img
+{
+    margin-left: -100px;
+}
+.chef-slider .chef-content .cc-right-content h1
+{
+    font-size: 40px;
+}
+
+.chef-slider .chef-content .cc-right-content .cc-text p
+{
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 500PX;
+}
+
+.chef-slider .chef-content .cc-right-content .order-now
+{
+    text-align: center;
+}
+
+.cc-para
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.order-now
+{
+    height: 20%;
+    margin-top: 150px;
+}
+.on-btn
+{
+    height: 60px;
+    width: 160px;
+    border-radius: 20px;
+    border: solid;
+    border-color: #FFD74B;
+    background-color: white;
+}
+
+.motorcycle
+{
+    width: 100%;
+    height: 70vh;
+    background-color: #FFD74B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.motorcycle .motor-right
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+.motorcycle .motor-right .motor-title
+{
+    margin-bottom: 60px;
+}
+
+.motorcycle .motor-right .motor-title h2
+{
+    margin-left: 1%;
+    font-size: 70px;
+    max-width: 700px;
+    color: #303030;
+}
+
+.motorcycle .motor-text p
+{
+    font-size: 30px;
+    max-width: 700px;
+    margin-bottom: 30px;
+    color: #303030;
+}
+
+.an-btn
+{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.an-btn a
+{
+    color: #FFD74B;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.food-features
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.food-features .fu-title
+{
+    margin-bottom: 90px;
+}
+
+.food-features .fu-title .upper-title h2
+{
+    color: #FFD74B;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+.food-features .fu-title .mid-title h2
+{
+    text-align: center;
+    font-size: 54px;
+}
+
+.food-features .features-content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.food-features .features-content .features-content-left .fcl-img
+{
+    text-align: center;
+}
+.food-features .features-content .features-content-left .fcl-title
+{
+    text-align: center;
+}
+
+.food-features .features-content .features-content-left .fcl-text p
+{
+    text-align: center;
+    max-width: 360px;
+}
+
+.food-features .features-content .features-content-right .fcr-img
+{
+    text-align: center;
+}
+.food-features .features-content .features-content-right .fcr-title
+{
+    text-align: center;
+}
+
+.food-features .features-content .features-content-right .fcr-text p
+{
+    text-align: center;
+    max-width: 360px;
+}
+
+.they-said
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.ts-title
+{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.ts-title h1
+{
+    margin-left: 1%;
+    text-align: left;
+    font-size: 80px;
+}
+
+.they-said .ts-card
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 1200px;
+    box-shadow: 1px 4px black;
+    padding: 40px;
+}
+
+.they-said .ts-card .ts-card-right
+{
+    display: flex;
+    flex-direction: column;
+}
+.they-said .ts-card .ts-card-right .ts-card-title
+{
+    font-size: 24px;
+    font-weight: 600;
+    height: 100%;
+}
+
+.they-said .ts-card .ts-card-left img
+{
+    margin-left: -90px;
+}
+
+.they-said .ts-card .ts-card-right
+{
+    margin-left: 130px;
+}
+
+.they-said .ts-card .ts-card-right .ts-card-text
+{
+    max-width: 400px;
+}
+
